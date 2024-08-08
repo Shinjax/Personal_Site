@@ -68,7 +68,7 @@ import { useState } from 'react'
         {/* About start */}
         <section className='container' id='about'>
           <div className='grid grid-cols-1 md:grid-cols-2 items-start mt-10'>
-            <img src='/src/assets/about-image.png' alt=''/>
+            <img src='./src/assets/about-image.png' alt=''/>
             <div className='ml-10'>
               <h3 className='font-bold text-blue-500 text-2xl'>ABOUT ME</h3>
               <h4 className='text-white font-bold text-3xl mt-2'>I'm Adam Sujica</h4>
@@ -139,7 +139,7 @@ import { useState } from 'react'
               <div className="flex flex-col bg-slate-800/80 rounded-xl">
                 <div className='px-5 py-4'>
                   <h4 className='text-2xl font-medium text-white'>Multi-Dashboard Application</h4>
-                  <img className='rounded-xl mt-5' src='/src/assets/projectdash.png'/> 
+                  <img className='rounded-xl mt-5' src='./src/assets/projectdash.png'/> 
                   <div className='flex justify-start space-x-5'>
                     <a href='https://youtu.be/dt-ZIP5py9c' target='_blank' rel='noopener noreferrer' className='inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 
                     active:scale-95 transition-all duration-300'>Video Demo</a>
@@ -152,7 +152,7 @@ import { useState } from 'react'
               <div className="flex flex-col bg-slate-800/80 rounded-xl">
                 <div className='px-5 py-4'>
                   <h4 className='text-2xl font-medium text-white'>Podcast Website</h4>
-                  <img className='rounded-xl mt-5' src='/src/assets/project1.png'/>
+                  <img className='rounded-xl mt-5' src='./src/assets/project1.png'/>
                   <div className='flex justify-start space-x-5'>
                     <a href='https://youtu.be/kvNNSCDr6Zc' target='_blank' rel='noopener noreferrer' className='inline-flex mt-4 px-4 py-3 font-semibold text-sm text-white rounded-md bg-blue-500 hover:scale-105 
                     active:scale-95 transition-all duration-300'>Video Demo</a>
